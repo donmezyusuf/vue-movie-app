@@ -1,5 +1,7 @@
 # vue-movie-app
 
+live: [https://vue-movie-app-xi.vercel.app/](https://vue-movie-app-xi.vercel.app/)
+
 ## Project setup
 ```
 yarn install

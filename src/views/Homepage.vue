@@ -37,7 +37,7 @@ export default {
   },
 
   mounted() {
-    fetch("http://www.omdbapi.com/?s=sky&y=2020&apikey=c1c41663")
+    fetch("https://www.omdbapi.com/?s=sky&y=2020&apikey=c1c41663")
       .then(res => res.json())
       .then(res => {
         this.movies = res.Search;

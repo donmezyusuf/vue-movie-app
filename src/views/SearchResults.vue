@@ -48,7 +48,7 @@ export default {
     let query = this.$route.params.text;
     try {
       let response = await fetch(
-        "http://www.omdbapi.com/?s=" + query + "&y=2020&apikey=c1c41663"
+        "https://www.omdbapi.com/?s=" + query + "&y=2020&apikey=c1c41663"
       );
       response = await response.json();
       this.count = response.totalResults;
